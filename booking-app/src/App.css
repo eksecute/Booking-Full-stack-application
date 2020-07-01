@@ -1,0 +1,44 @@
+.align-center {
+  text-align: center;
+}
+
+.other {
+  display: flex!important;
+  /*justify-content: space-between;*/
+}
+
+.m-or {
+  margin-top: 7px;
+}
+
+.textarea {
+  overflow: hidden;
+  resize: vertical;
+  min-height: 40px;
+  line-height: 20px;
+}
+
+.ras, .ras:hover  {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem;
+    orphans: 1;
+    widows: 1;
+  }
+}
+
+.one-row {
+  display: inline-block;
+}
+
+
+
